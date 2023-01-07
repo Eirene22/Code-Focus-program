@@ -236,7 +236,7 @@ main {
     }
     .first-img-set{
         display: flex;
-        gap: 50px;
+        gap: 60px;
     }
 
     .automation-heading{
@@ -250,6 +250,8 @@ main {
     
     }
     .npmbox-div{
+        display: block;
+        margin: auto;
         height: 164px;
         /* left: 339px; */
         top: 1310px;
@@ -260,6 +262,7 @@ main {
         font-size: 20px;
          max-width: 726px;
          overflow: hidden;
+
         /* margin-left: 300px; */
         
     }
@@ -273,20 +276,93 @@ main {
     text-align: left;
 }
 
-
-       
+ .third-heading{
+    text-align: center;
+    margin-top: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 50px;
+    color: #212936;
+    font-weight: 800;
+    font-size: 40px;
     
+}
+       .tools-logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 60px;
+        padding-top: 100px;
+       }
 
-/*  
-    }
+           /* Everything you need all-in-one platform */
+           .everything-flexcontainer{
+            display: grid;
+            place-items: center;
+            gap:20px;
+            grid-template-columns: repeat(2,1fr);
+            row-gap: 100px;
+            /* column-gap:50px; */
+            /* padding-top: 100px;    
+            padding: -100px; */
+        
+        }
+        .fifth-section{
+            padding-top: 200px;
+        }
+        .everything-1 p{
+            line-height: 20px;
+            text-align: left;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        h3{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            padding-bottom: 12px;
+            font-weight: 550;
+            
+
+        }
+
+  
+    
     @media(max-width:600px){
         .navbar-flexcontainer{
-            flex-direction: column; 
-s
+            flex-direction: column;}
         }
- 
-    } */
+
         
+ 
+     
+    @media(max-width:600px){
+        .everything-flexcontainer{
+            display: grid;
+            place-items: center;
+            gap:20px;
+        }
+    }
+
+     @media(max-width:600px){
+        .first-img-set{
+            display: grid;
+            place-items: center;
+            grid-template-columns:repeat(2,1fr) ;
+            gap:20px;
+        }
+
+
+    } 
+
+
+
+@media(max-width:600px){
+   .tools-logo{
+    display: grid;
+    place-items: center;
+    grid-template-columns:repeat(2,1fr) ;
+    gap:20px;
+   }
+
+
+} 
 
         
 
