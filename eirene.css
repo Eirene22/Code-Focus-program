@@ -231,31 +231,61 @@ main {
 
     .second-header{
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-            color: #4B5563;
+        font-weight: bold;
+        
     }
     .first-img-set{
         display: flex;
         gap: 50px;
+    }
 
+    .automation-heading{
+        text-align: center;
+        margin-top: 30px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        line-height: 79.3px;
+        color: #212936;
+        font-weight: 800;
+        font-size: 50px;
+    
     }
-    .horizontal-line{
-        color: #776FDA;
+    .npmbox-div{
+        height: 164px;
+        /* left: 339px; */
+        top: 1310px;
+        background: #212936;
+        border-radius: 5px;
+        color: #FFFFFF;
+        font-weight: 400;
+        font-size: 20px;
+         max-width: 726px;
+         overflow: hidden;
+        /* margin-left: 300px; */
+        
     }
+.secondnpm-line{
+    color:#9CA3AF;
+    font-size: 20px;
+    font-weight: 400;
+}
+.npm-content{
+    padding-top: 20px;
+    text-align: left;
+}
+
+
        
-    @media(max-width:600px){
-        .navbar-flexcontainer{
-            flex-direction: column;
+    
 
-        }
- 
+/*  
     }
     @media(max-width:600px){
         .navbar-flexcontainer{
             flex-direction: column; 
-
+s
         }
  
-    }
+    } */
         
 
         
